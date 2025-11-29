@@ -8,11 +8,9 @@
     <style>
     body { 
         display: flex;
-        flex direction: column; margin: o;
     }
     .navbar {
-        background-color:
-
+        background-color: black
     }
     </style>
     <Body>
@@ -29,10 +27,10 @@
             <!--vehicle cards will be appended here-->
             </div>
             <!--inside the.sidebar div-->
-            <h3>fleet form</h3>
+            <h3 margin="centre">fleet form</h3>
             <form id="fleetForm">
                 <div>
-                    <label for="regNo">reg No of vehicle:</label>
+                    <label for="RegNo">Registeration No of vehicle:</label>
                     <input type="text" id="regNo" required>
                 </div>
                 <br>
@@ -47,6 +45,67 @@
                     
                 </div>
                 <br>
+                <!--sample vehicle Card 1-->
+                <div class="card">
+                    <div class="status avaiable">Available</div>
+                    <p><strong>Reg No of Vehicle:</strong>KA011234</p>
+                    <p><strong>Category:</strong>Auto</p>
+                    <p><strong>Driver Name:</strong>Zaviour</p>
+                </div>
+                <div class="button">
+                    <button class="update-btn">Update Driver</button>
+                    <button class="Change-status-btn">Change Availability</button>
+                    <button class="delete-btn">Delete Vehicle</button>
+
+                    <!--sample vehicle Card 2(unavailable)-->
+                <div class="card">
+                    <div class="status avaiable">Unavailable</div>
+                    <p><strong>Reg No of Vehicle:</strong>KA0212345</p>
+                    <p><strong>Category:</strong>Car</p>
+                    <p><strong>Driver Name:</strong>Bob</p>
+                </div>
+                <div class="button">
+                    <button class="update-btn">Update Driver</button>
+                    <button class="Change-status-btn">Change Availability</button>
+                    <button class="delete-btn">Delete Vehicle</button>
+                </div>
+
+
+                <!--sample vehicle Card 3(unavailable)-->
+                <div class="card">
+                    <div class="status avaiable">Unavailable</div>
+                    <p><strong>Reg No of Vehicle:</strong>KA0212345</p>
+                    <p><strong>Category:</strong>Truck</p>
+                    <p><strong>Driver Name:</strong>John</p>
+                </div>
+                <div class="button">
+                    <button class="update-btn">Update Driver</button>
+                    <button class="Change-status-btn">Change Availability</button>
+                    <button class="delete-btn">Delete Vehicle</button>
+
+                    <!--sample vehicle Card 4-->
+                <div class="card">
+                    <div class="status avaiable">Available</div>
+                    <p><strong>Reg No of Vehicle:</strong>KA0312345</p>
+                    <p><strong>Category:</strong>Bus</p>
+                    <p><strong>Driver Name:</strong>David</p>
+                </div>
+                <div class="button">
+                    <button class="update-btn">Update Driver</button>
+                    <button class="Change-status-btn">Change Availability</button>
+                    <button class="delete-btn">Delete Vehicle</button>
+
+                    <!--sample vehicle Card 5-->
+                <div class="card">
+                    <div class="status avaiable">Available</div>
+                    <p><strong>Reg No of Vehicle:</strong>KA01AB1234</p>
+                    <p><strong>Category:</strong>Auto</p>
+                    <p><strong>Driver Name:</strong>Zaviour</p>
+                </div>
+                <div class="button">
+                    <button class="update-btn">Update Driver</button>
+                    <button class="Change-status-btn">Change Availability</button>
+                    <button class="delete-btn">Delete Vehicle</button>
             </form>
             <script src="script.js"></script>
 
